@@ -2,7 +2,7 @@
 ## What Is Happening Inside the Heart of the Person Who Needs the Substitute?
 A book by Bradley Hobbs
 Live Site:
-https://brad-hobbswd.github.io/the-sub2
+https://brad-hobbswd.github.io/the-sub-2
 ---
 ## About the Book
 The Substitute explores a question that reaches beyond addiction itself and into the deeper realities of the human heart:
@@ -60,6 +60,6 @@ The Substitute explores:
 Bradley Hobbs writes about healing, recovery, faith, emotional growth, identity, and the deeper questions that shape the human experience. His work seeks to help readers discover hope, understanding, and healing while exploring the realities that often exist beneath life's visible struggles.
 ---
 ## Live Website
-https://brad-hobbswd.github.io/the-sub2
+https://brad-hobbswd.github.io/the-sub-2
 ---
 © 2026 Bradley Hobbs. All Rights Reserved.
