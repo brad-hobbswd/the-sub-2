@@ -335,6 +335,37 @@ footer p{
 margin-bottom:.5rem;
 color:var(--muted-text);
 }
+
+.footer-divider{
+border:none;
+height:1px;
+background:rgba(255,255,255,.15);
+max-width:220px;
+margin:30px auto;
+}
+
+.donation-buttons{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+margin:25px 0;
+}
+
+.donate-btn{
+display:inline-block;
+padding:12px 24px;
+border-radius:30px;
+background:#d4af37;
+color:#111;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.donate-btn:hover{
+transform:translateY(-3px);
+}
 /* ===================================
    SELECTION
 =================================== */
