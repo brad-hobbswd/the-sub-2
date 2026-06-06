@@ -118,6 +118,22 @@ transition:.3s ease;
 a:hover{
 color:var(--gold-light);
 }
+
+/* ===================================
+   BUTTON LINK OVERRIDE
+=================================== */
+
+a.button,
+a.button:link,
+a.button:visited,
+a.button:hover,
+a.button:active{
+
+color:var(--midnight) !important;
+text-decoration:none;
+
+}
+
 /* ===================================
    HEADER
 =================================== */
@@ -281,38 +297,69 @@ margin:5rem 0;
 /* ===================================
    BUTTONS
 =================================== */
+
 .button,
 button{
+
 display:inline-flex;
 align-items:center;
 justify-content:center;
+
 padding:18px 42px;
-border-radius:14px;
-font-size:1.05rem;
-letter-spacing:.03em;
+
 background:linear-gradient(
 180deg,
 var(--gold-light),
 var(--gold)
 );
+
+color:var(--midnight) !important;
+
+font-family:Inter,sans-serif;
+font-size:1.05rem;
+font-weight:700;
+letter-spacing:.03em;
+
+border:none;
+border-radius:14px;
+
+text-decoration:none;
+
+cursor:pointer;
+
+transition:
+transform .25s ease,
+box-shadow .25s ease,
+background .25s ease;
+
 box-shadow:
-0 10px 30px rgba(214,166,71,.18);
+0 12px 28px rgba(214,166,71,.22);
+
 }
 
-.button:hover,
-button:hover{
-transform:translateY(-4px);
-box-shadow:
-0 18px 40px rgba(214,166,71,.28);
-}
-
-.button,
 .button:link,
 .button:visited,
 .button:hover,
-.button:active{
+.button:active,
+.button:focus{
 
-color:#08121c !important;
+color:var(--midnight) !important;
+text-decoration:none;
+
+}
+
+.button:hover{
+
+background:linear-gradient(
+180deg,
+#f0d07c,
+#ddb04f
+);
+
+transform:translateY(-3px);
+
+box-shadow:
+0 18px 36px rgba(214,166,71,.32);
 
 }
 /* ===================================
@@ -453,6 +500,30 @@ transform:translateY(-3px);
 
 box-shadow:
 0 16px 32px rgba(214,166,71,.28);
+
+}
+
+.footer-links{
+
+display:flex;
+justify-content:center;
+align-items:center;
+gap:30px;
+flex-wrap:wrap;
+margin:25px 0;
+
+}
+
+.footer-links a{
+
+color:var(--gold);
+font-weight:600;
+
+}
+
+.footer-links a:hover{
+
+color:var(--gold-light);
 
 }
 
